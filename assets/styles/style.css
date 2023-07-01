@@ -39,7 +39,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 440px;
-  height: 650px;
+  height: 67 0px;
   background-color: #fff;
   border-radius: 20px;
   overflow: hidden;
@@ -54,6 +54,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .bottom .summary {
@@ -77,8 +78,74 @@ body {
   color: var(--desaturatedBlue);
 }
 
-.plan {
+.bottom .plan {
+  display: flex;
+  background-color: var(--veryPaleBlue);
+  width: 350px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.plan .annual-plan {
   display: flex;
   flex-direction: row;
-  justify-content: space;
+  align-items: center;
+  justify-content: space-between;
+  width: 65%;
+  color: var(--darkBlue);
+}
+
+.annual-plan .mayokun h4 {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.annual-plan .mayokun p {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--desaturatedBlue);
+  text-decoration: none;
+}
+
+.annual-plan p {
+  font-size: 14px;
+  text-decoration: underline;
+  color: var(--brightBlue);
+  cursor: pointer;
+  font-weight: 900;
+  transition: all ease-in-out 0.35s;
+}
+.annual-plan p:hover {
+  color: hsla(245, 75%, 52%, 0.671);
+  text-decoration: none;
+  transition: all ease-in-out 0.35s;
+}
+.order-process {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90px;
+  justify-content: space-between;
+}
+
+.order-process button {
+  /* padding: 10px 10px; */
+  height: 45px;
+  width: 350px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 10px;
+  color: #fff;
+  background-color: var(--brightBlue);
+  box-shadow: 5px 20px 20px var(--paleBlue);
+  font-weight: 700;
+}
+
+.order-process h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--desaturatedBlue);
 }
