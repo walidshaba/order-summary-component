@@ -10,7 +10,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Mobile View](./screenshot/Mobile.png)
+![Desktop View](./screenshot/Desktop.png)
 
 ### Links
 
